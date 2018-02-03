@@ -1,0 +1,788 @@
+2018/01/27 13:15:41.377 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 13:15:41.383 [D] resp from etcd:[]
+2018/01/27 13:15:41.384 [D] resp from etcd:[]
+2018/01/27 13:15:41.389 [D] resp from etcd:[]
+2018/01/27 13:15:41.389 [D] initialize etcd succ
+2018/01/27 13:15:41.389 [E] invalid config for log collect, conf:[]
+2018/01/27 13:15:41.389 [D] initialize tailf succ
+2018/01/27 13:15:41.391 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 13:15:41.391 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 13:15:41.392 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 13:15:42.148 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 13:15:42.148 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 14:08:51.268 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 14:08:51.283 [D] resp from etcd:[]
+2018/01/27 14:08:51.283 [D] resp from etcd:[]
+2018/01/27 14:08:51.284 [D] resp from etcd:[]
+2018/01/27 14:08:51.284 [D] initialize etcd succ
+2018/01/27 14:08:51.284 [E] invalid config for log collect, conf:[]
+2018/01/27 14:08:51.284 [D] initialize tailf succ
+2018/01/27 14:08:51.286 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 14:08:51.287 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 14:08:51.287 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 14:08:52.041 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 14:08:52.041 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 14:13:42.903 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 14:13:42.917 [D] resp from etcd:[]
+2018/01/27 14:13:42.918 [D] resp from etcd:[]
+2018/01/27 14:13:42.919 [D] resp from etcd:[]
+2018/01/27 14:13:42.919 [D] initialize etcd succ
+2018/01/27 14:13:42.919 [E] invalid config for log collect, conf:[]
+2018/01/27 14:13:42.919 [D] initialize tailf succ
+2018/01/27 14:13:42.922 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 14:13:42.922 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 14:13:42.924 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 14:13:43.690 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 14:13:43.690 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 14:20:04.242 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 14:20:04.249 [D] resp from etcd:[]
+2018/01/27 14:20:04.249 [D] resp from etcd:[]
+2018/01/27 14:20:04.250 [D] resp from etcd:[]
+2018/01/27 14:20:04.250 [D] initialize etcd succ
+2018/01/27 14:20:04.250 [E] invalid config for log collect, conf:[]
+2018/01/27 14:20:04.250 [D] initialize tailf succ
+2018/01/27 14:20:04.252 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 14:20:04.252 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 14:20:04.252 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 14:20:04.257 [D] init kafka succ
+2018/01/27 14:20:04.257 [D] initialize all succ
+2018/01/27 15:07:16.588 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 15:07:16.598 [D] resp from etcd:[]
+2018/01/27 15:07:16.598 [D] resp from etcd:[]
+2018/01/27 15:07:16.599 [D] resp from etcd:[]
+2018/01/27 15:07:16.599 [D] initialize etcd succ
+2018/01/27 15:07:16.599 [E] invalid config for log collect, conf:[]
+2018/01/27 15:07:16.599 [D] initialize tailf succ
+2018/01/27 15:07:16.603 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 15:07:16.604 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 15:07:16.605 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 15:07:16.607 [D] init kafka succ
+2018/01/27 15:07:16.607 [D] initialize all succjj
+2018/01/27 17:12:44.940 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:12:44.944 [D] resp from etcd:[]
+2018/01/27 17:12:44.945 [D] resp from etcd:[]
+2018/01/27 17:12:44.945 [D] resp from etcd:[]
+2018/01/27 17:12:44.945 [D] initialize etcd succ
+2018/01/27 17:12:44.945 [E] invalid config for log collect, conf:[]
+2018/01/27 17:12:44.945 [D] initialize tailf succ
+2018/01/27 17:12:44.946 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:12:44.946 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:12:44.946 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:13:43.779 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:13:43.783 [D] resp from etcd:[]
+2018/01/27 17:13:43.784 [D] resp from etcd:[]
+2018/01/27 17:13:43.784 [D] resp from etcd:[]
+2018/01/27 17:13:43.784 [D] initialize etcd succ
+2018/01/27 17:13:43.784 [E] invalid config for log collect, conf:[]
+2018/01/27 17:13:43.784 [D] initialize tailf succ
+2018/01/27 17:13:43.786 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:13:43.787 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:13:43.787 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:15:44.556 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 17:15:44.556 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 17:16:11.504 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:16:11.521 [D] resp from etcd:[]
+2018/01/27 17:16:11.522 [D] resp from etcd:[]
+2018/01/27 17:16:11.522 [D] resp from etcd:[]
+2018/01/27 17:16:11.522 [D] initialize etcd succ
+2018/01/27 17:16:11.522 [E] invalid config for log collect, conf:[]
+2018/01/27 17:16:11.522 [D] initialize tailf succ
+2018/01/27 17:16:11.525 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:16:11.525 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:16:11.526 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:16:11.530 [D] init kafka succ
+2018/01/27 17:16:11.530 [D] initialize all succ
+2018/01/27 17:16:46.953 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:16:46.960 [D] resp from etcd:[]
+2018/01/27 17:16:46.960 [D] resp from etcd:[]
+2018/01/27 17:16:46.961 [D] resp from etcd:[]
+2018/01/27 17:16:46.961 [D] initialize etcd succ
+2018/01/27 17:16:46.961 [E] invalid config for log collect, conf:[]
+2018/01/27 17:16:46.961 [D] initialize tailf succ
+2018/01/27 17:16:46.966 [D] init kafka succ
+2018/01/27 17:16:46.966 [D] initialize all succ
+2018/01/27 17:16:46.966 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:16:46.966 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:16:46.967 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:17:59.476 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:17:59.495 [D] resp from etcd:[]
+2018/01/27 17:17:59.496 [D] resp from etcd:[]
+2018/01/27 17:17:59.496 [D] resp from etcd:[]
+2018/01/27 17:17:59.496 [D] initialize etcd succ
+2018/01/27 17:17:59.496 [E] invalid config for log collect, conf:[]
+2018/01/27 17:17:59.496 [D] initialize tailf succ
+2018/01/27 17:17:59.498 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:17:59.499 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:17:59.499 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:17:59.502 [D] init kafka succ
+2018/01/27 17:17:59.502 [D] initialize all succ
+2018/01/27 17:18:38.961 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log nginx_log}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:18:38.965 [D] resp from etcd:[]
+2018/01/27 17:18:38.966 [D] resp from etcd:[]
+2018/01/27 17:18:38.966 [D] resp from etcd:[]
+2018/01/27 17:18:38.966 [D] initialize etcd succ
+2018/01/27 17:18:38.966 [E] invalid config for log collect, conf:[]
+2018/01/27 17:18:38.966 [D] initialize tailf succ
+2018/01/27 17:18:38.974 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:18:38.974 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:18:38.974 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:18:38.975 [D] init kafka succ
+2018/01/27 17:18:38.975 [D] initialize all succ
+
+2018/01/27 17:18:38.975 [D] initialize all succ
+2018/01/27 17:20:41.676 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:20:41.680 [D] resp from etcd:[]
+2018/01/27 17:20:41.680 [D] resp from etcd:[]
+2018/01/27 17:20:41.681 [D] resp from etcd:[]
+2018/01/27 17:20:41.681 [D] initialize etcd succ
+2018/01/27 17:20:41.681 [E] invalid config for log collect, conf:[]
+2018/01/27 17:20:41.681 [D] initialize tailf succ
+2018/01/27 17:20:41.685 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:20:41.686 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:20:41.688 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:20:41.691 [D] init kafka succ
+2018/01/27 17:20:41.691 [D] initialize all succ
+2018/01/27 17:22:59.282 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:22:59.285 [D] resp from etcd:[]
+2018/01/27 17:22:59.285 [D] resp from etcd:[]
+2018/01/27 17:22:59.285 [D] resp from etcd:[]
+2018/01/27 17:22:59.285 [D] initialize etcd succ
+2018/01/27 17:22:59.285 [E] invalid config for log collect, conf:[]
+2018/01/27 17:22:59.285 [D] initialize tailf succ
+2018/01/27 17:22:59.287 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:22:59.288 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:22:59.288 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:22:59.300 [D] init kafka succ
+2018/01/27 17:22:59.300 [D] initialize all succ
+2018/01/27 17:26:22.467 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:26:22.474 [D] resp from etcd:[]
+2018/01/27 17:26:22.474 [D] resp from etcd:[]
+2018/01/27 17:26:22.474 [D] resp from etcd:[]
+2018/01/27 17:26:22.474 [D] initialize etcd succ
+2018/01/27 17:26:22.475 [E] invalid config for log collect, conf:[]
+2018/01/27 17:26:22.475 [D] initialize tailf succ
+2018/01/27 17:26:22.479 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:26:22.479 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:26:22.480 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:26:22.483 [D] init kafka succ
+2018/01/27 17:26:22.483 [D] initialize all succ
+2018/01/27 17:28:00.109 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:28:00.112 [D] resp from etcd:[]
+2018/01/27 17:28:00.113 [D] resp from etcd:[]
+2018/01/27 17:28:00.113 [D] resp from etcd:[]
+2018/01/27 17:28:00.113 [D] initialize etcd succ
+2018/01/27 17:28:00.113 [E] invalid config for log collect, conf:[]
+2018/01/27 17:28:00.113 [D] initialize tailf succ
+2018/01/27 17:28:00.115 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:28:00.116 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:28:00.116 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:28:00.124 [D] init kafka succ
+2018/01/27 17:28:00.124 [D] initialize all succ
+2018/01/27 17:35:37.819 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 17:35:37.828 [D] resp from etcd:[]
+2018/01/27 17:35:37.828 [D] resp from etcd:[]
+2018/01/27 17:35:37.829 [D] resp from etcd:[]
+2018/01/27 17:35:37.829 [D] initialize etcd succ
+2018/01/27 17:35:37.829 [E] invalid config for log collect, conf:[]
+2018/01/27 17:35:37.829 [D] initialize tailf succ
+2018/01/27 17:35:37.831 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 17:35:37.831 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 17:35:37.833 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 17:35:37.838 [D] init kafka succ
+2018/01/27 17:35:37.838 [D] initialize all succ
+2018/01/27 20:34:19.006 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:34:19.019 [D] resp from etcd:[]
+2018/01/27 20:34:19.020 [D] resp from etcd:[]
+2018/01/27 20:34:19.021 [D] resp from etcd:[]
+2018/01/27 20:34:19.021 [D] initialize etcd succ
+2018/01/27 20:34:19.021 [E] invalid config for log collect, conf:[]
+2018/01/27 20:34:19.021 [D] initialize tailf succ
+2018/01/27 20:34:19.023 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:34:19.024 [D] begin watch key:/oldboy/backend/logagent/config/192.168.1.4
+2018/01/27 20:34:19.027 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:36:19.791 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:36:19.792 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:36:44.948 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:36:44.951 [D] resp from etcd:[]
+2018/01/27 20:36:44.952 [D] resp from etcd:[]
+2018/01/27 20:36:44.952 [D] resp from etcd:[]
+2018/01/27 20:36:44.952 [D] initialize etcd succ
+2018/01/27 20:36:44.952 [E] invalid config for log collect, conf:[]
+2018/01/27 20:36:44.952 [D] initialize tailf succ
+2018/01/27 20:36:44.956 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:36:44.960 [D] begin watch key:/oldboy/backend/logagent/config/192.168.1.4
+2018/01/27 20:36:44.961 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:36:49.249 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:36:49.252 [D] resp from etcd:[]
+2018/01/27 20:36:49.252 [D] resp from etcd:[]
+2018/01/27 20:36:49.253 [D] resp from etcd:[]
+2018/01/27 20:36:49.253 [D] initialize etcd succ
+2018/01/27 20:36:49.253 [E] invalid config for log collect, conf:[]
+2018/01/27 20:36:49.253 [D] initialize tailf succ
+2018/01/27 20:36:49.256 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:36:49.257 [D] begin watch key:/oldboy/backend/logagent/config/192.168.1.4
+2018/01/27 20:36:49.257 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:38:50.021 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:38:50.021 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:39:42.245 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:39:42.248 [D] resp from etcd:[]
+2018/01/27 20:39:42.249 [D] resp from etcd:[]
+2018/01/27 20:39:42.249 [D] resp from etcd:[]
+2018/01/27 20:39:42.249 [D] initialize etcd succ
+2018/01/27 20:39:42.249 [E] invalid config for log collect, conf:[]
+2018/01/27 20:39:42.249 [D] initialize tailf succ
+2018/01/27 20:39:42.250 [D] begin watch key:/oldboy/backend/logagent/config/192.168.1.4
+2018/01/27 20:39:42.250 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:39:42.250 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:41:45.146 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:41:45.152 [D] resp from etcd:[]
+2018/01/27 20:41:45.152 [D] resp from etcd:[]
+2018/01/27 20:41:45.152 [D] resp from etcd:[]
+2018/01/27 20:41:45.152 [D] initialize etcd succ
+2018/01/27 20:41:45.152 [E] invalid config for log collect, conf:[]
+2018/01/27 20:41:45.152 [D] initialize tailf succ
+2018/01/27 20:41:45.155 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 20:41:45.155 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:41:45.155 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:43:45.917 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:43:45.917 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:46:17.148 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:46:17.155 [D] resp from etcd:[]
+2018/01/27 20:46:17.156 [D] resp from etcd:[]
+2018/01/27 20:46:17.156 [D] resp from etcd:[]
+2018/01/27 20:46:17.156 [D] initialize etcd succ
+2018/01/27 20:46:17.156 [E] invalid config for log collect, conf:[]
+2018/01/27 20:46:17.156 [D] initialize tailf succ
+2018/01/27 20:46:17.159 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:46:17.159 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 20:46:17.160 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:48:17.922 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:48:17.923 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:56:13.943 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:56:13.949 [D] resp from etcd:[]
+2018/01/27 20:56:13.949 [D] resp from etcd:[]
+2018/01/27 20:56:13.949 [D] resp from etcd:[]
+2018/01/27 20:56:13.950 [D] initialize etcd succ
+2018/01/27 20:56:13.950 [E] invalid config for log collect, conf:[]
+2018/01/27 20:56:13.950 [D] initialize tailf succ
+2018/01/27 20:56:13.951 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:56:13.952 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:56:13.953 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 20:56:41.420 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:56:41.423 [D] resp from etcd:[]
+2018/01/27 20:56:41.424 [D] resp from etcd:[]
+2018/01/27 20:56:41.424 [D] resp from etcd:[]
+2018/01/27 20:56:41.424 [D] initialize etcd succ
+2018/01/27 20:56:41.424 [E] invalid config for log collect, conf:[]
+2018/01/27 20:56:41.424 [D] initialize tailf succ
+2018/01/27 20:56:41.426 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 20:56:41.426 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:56:41.428 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:56:51.974 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 20:56:51.977 [D] resp from etcd:[]
+2018/01/27 20:56:51.978 [D] resp from etcd:[]
+2018/01/27 20:56:51.978 [D] resp from etcd:[]
+2018/01/27 20:56:51.978 [D] initialize etcd succ
+2018/01/27 20:56:51.978 [E] invalid config for log collect, conf:[]
+2018/01/27 20:56:51.978 [D] initialize tailf succ
+2018/01/27 20:56:51.980 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 20:56:51.980 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 20:56:51.980 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 20:56:52.732 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 20:56:52.732 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 21:02:31.833 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 21:02:31.834 [D] resp from etcd:[]
+2018/01/27 21:02:31.835 [D] resp from etcd:[]
+2018/01/27 21:02:31.835 [D] resp from etcd:[]
+2018/01/27 21:02:31.836 [D] initialize etcd succ
+2018/01/27 21:02:31.836 [E] invalid config for log collect, conf:[]
+2018/01/27 21:02:31.836 [D] initialize tailf succ
+2018/01/27 21:02:31.837 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 21:02:31.838 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 21:02:31.838 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 21:03:27.214 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 21:03:27.216 [D] resp from etcd:[]
+2018/01/27 21:03:27.216 [D] resp from etcd:[]
+2018/01/27 21:03:27.217 [D] resp from etcd:[]
+2018/01/27 21:03:27.217 [D] initialize etcd succ
+2018/01/27 21:03:27.217 [E] invalid config for log collect, conf:[]
+2018/01/27 21:03:27.217 [D] initialize tailf succ
+2018/01/27 21:03:27.222 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 21:03:27.222 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 21:03:27.223 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 21:05:27.989 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 21:05:27.989 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/27 21:11:10.456 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 127.0.0.1:2379 /oldboy/backend/logagent/config/}
+2018/01/27 21:11:10.461 [D] resp from etcd:[]
+2018/01/27 21:11:10.463 [D] resp from etcd:[]
+2018/01/27 21:11:10.463 [D] resp from etcd:[]
+2018/01/27 21:11:10.463 [D] initialize etcd succ
+2018/01/27 21:11:10.464 [E] invalid config for log collect, conf:[]
+2018/01/27 21:11:10.464 [D] initialize tailf succ
+2018/01/27 21:11:10.470 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 21:11:10.470 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 21:11:10.472 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 21:11:10.480 [D] init kafka succ
+2018/01/27 21:11:10.480 [D] initialize all succ
+2018/01/27 22:49:37.757 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/27 22:49:37.760 [D] resp from etcd:[]
+2018/01/27 22:49:37.761 [D] resp from etcd:[]
+2018/01/27 22:49:37.761 [D] resp from etcd:[]
+2018/01/27 22:49:37.762 [D] initialize etcd succ
+2018/01/27 22:49:37.762 [E] invalid config for log collect, conf:[]
+2018/01/27 22:49:37.762 [D] initialize tailf succ
+2018/01/27 22:49:37.769 [D] init kafka succ
+2018/01/27 22:49:37.769 [D] initialize all succ
+2018/01/27 22:49:37.773 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 22:49:37.773 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 22:49:37.774 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 22:53:55.113 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:45865 /oldboy/backend/logagent/config/}
+2018/01/27 22:53:55.115 [D] resp from etcd:[]
+2018/01/27 22:53:55.115 [D] resp from etcd:[]
+2018/01/27 22:53:55.116 [D] resp from etcd:[]
+2018/01/27 22:53:55.116 [D] initialize etcd succ
+2018/01/27 22:53:55.116 [E] invalid config for log collect, conf:[]
+2018/01/27 22:53:55.116 [D] initialize tailf succ
+2018/01/27 22:53:55.122 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 22:53:55.123 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 22:53:55.123 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 22:53:55.126 [D] init kafka succ
+2018/01/27 22:53:55.126 [D] initialize all succ
+2018/01/27 22:55:31.286 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:45606 /oldboy/backend/logagent/config/}
+2018/01/27 22:55:31.288 [D] resp from etcd:[]
+2018/01/27 22:55:31.288 [D] resp from etcd:[]
+2018/01/27 22:55:31.289 [D] resp from etcd:[]
+2018/01/27 22:55:31.289 [D] initialize etcd succ
+2018/01/27 22:55:31.289 [E] invalid config for log collect, conf:[]
+2018/01/27 22:55:31.289 [D] initialize tailf succ
+2018/01/27 22:55:31.292 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/27 22:55:31.293 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 22:55:31.293 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 22:55:31.297 [D] init kafka succ
+2018/01/27 22:55:31.297 [D] initialize all succ
+2018/01/27 23:04:48.463 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/27 23:04:48.465 [D] resp from etcd:[]
+2018/01/27 23:04:48.466 [D] resp from etcd:[]
+2018/01/27 23:04:48.466 [D] resp from etcd:[]
+2018/01/27 23:04:48.466 [D] initialize etcd succ
+2018/01/27 23:04:48.466 [E] invalid config for log collect, conf:[]
+2018/01/27 23:04:48.466 [D] initialize tailf succ
+2018/01/27 23:04:48.480 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/27 23:04:48.482 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/27 23:04:48.484 [D] init kafka succ
+2018/01/27 23:04:48.484 [D] initialize all succ
+2018/01/27 23:04:48.485 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:21:15.182 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:21:15.184 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:21:15.184 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:21:15.184 [D] resp from etcd:[]
+2018/01/28 12:21:15.185 [D] resp from etcd:[]
+2018/01/28 12:21:15.185 [D] initialize etcd succ
+2018/01/28 12:21:15.185 [D] initialize tailf succ
+2018/01/28 12:21:15.188 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:21:15.188 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:21:15.188 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:23:15.950 [E] init kafka producer failed, err: kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/28 12:23:15.950 [E] init tail failed, err:kafka: client has run out of available brokers to talk to (Is your cluster reachable?)
+2018/01/28 12:33:30.314 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{./logs/logagent.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:33:30.317 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:33:30.317 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:33:30.319 [D] resp from etcd:[]
+2018/01/28 12:33:30.320 [D] resp from etcd:[]
+2018/01/28 12:33:30.320 [D] initialize etcd succ
+2018/01/28 12:33:30.321 [D] initialize tailf succ
+2018/01/28 12:33:30.335 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:33:30.336 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:33:30.339 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:33:30.341 [D] init kafka succ
+2018/01/28 12:33:30.341 [D] initialize all succ
+ss2018/01/28 12:36:36.712 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:36:36.715 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:2 version:1 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:36:36.715 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:36:36.715 [D] resp from etcd:[]
+2018/01/28 12:36:36.716 [D] resp from etcd:[]
+2018/01/28 12:36:36.716 [D] initialize etcd succ
+2018/01/28 12:36:36.716 [D] initialize tailf succ
+2018/01/28 12:36:36.725 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:36:36.726 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:36:36.729 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:36:36.733 [D] init kafka succ
+2018/01/28 12:36:36.733 [D] initialize all succ
+2018/01/28 12:38:22.116 [D] get config from etcd, PUT "/oldboy/backend/logagent/config/192.168.10.103" : "[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]"
+
+2018/01/28 12:38:22.116 [D] get config from etcd succ, [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:40:03.215 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:40:03.216 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:6 version:2 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:40:03.217 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:40:03.217 [D] resp from etcd:[]
+2018/01/28 12:40:03.217 [D] resp from etcd:[]
+2018/01/28 12:40:03.217 [D] initialize etcd succ
+2018/01/28 12:40:03.217 [D] initialize tailf succ
+2018/01/28 12:40:03.220 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:40:03.220 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:40:03.221 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:40:03.225 [D] init kafka succ
+2018/01/28 12:40:03.225 [D] initialize all succ
+2018/01/28 12:41:27.221 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:41:27.223 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:6 version:2 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:41:27.223 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:41:27.223 [D] resp from etcd:[]
+2018/01/28 12:41:27.224 [D] resp from etcd:[]
+2018/01/28 12:41:27.224 [D] initialize etcd succ
+2018/01/28 12:41:27.224 [D] initialize tailf succ
+2018/01/28 12:41:27.228 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:41:27.228 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:41:27.229 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:41:27.232 [D] init kafka succ
+2018/01/28 12:41:27.232 [D] initialize all succ
+2018/01/28 12:42:41.118 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:42:41.120 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:6 version:2 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:42:41.120 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:42:41.120 [D] resp from etcd:[]
+2018/01/28 12:42:41.121 [D] resp from etcd:[]
+2018/01/28 12:42:41.121 [D] initialize etcd succ
+2018/01/28 12:42:41.121 [D] initialize tailf succ
+2018/01/28 12:42:41.127 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:42:41.127 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:42:41.128 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:42:41.129 [D] init kafka succ
+2018/01/28 12:42:41.129 [D] initialize all succ
+2018/01/28 12:44:01.773 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:44:01.775 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:6 version:2 value:"[{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:44:01.775 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:44:01.775 [D] resp from etcd:[]
+2018/01/28 12:44:01.776 [D] resp from etcd:[]
+2018/01/28 12:44:01.776 [D] initialize etcd succ
+2018/01/28 12:44:01.776 [D] initialize tailf succ
+2018/01/28 12:44:01.779 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:44:01.779 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:44:01.780 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:44:01.784 [D] init kafka succ
+2018/01/28 12:44:01.784 [D] initialize all succ
+2018/01/28 12:44:13.765 [D] get config from etcd, PUT "/oldboy/backend/logagent/config/192.168.10.103" : "[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]"
+
+2018/01/28 12:44:13.765 [D] get config from etcd succ, [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:44:23.808 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:44:23.811 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:7 version:3 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:44:23.811 [D] log config is [{ nginx_log} { nginx_log_err}]
+2018/01/28 12:44:23.813 [D] resp from etcd:[]
+2018/01/28 12:44:23.814 [D] resp from etcd:[]
+2018/01/28 12:44:23.814 [D] initialize etcd succ
+2018/01/28 12:44:23.815 [D] initialize tailf succ
+2018/01/28 12:44:23.824 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:44:23.825 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:44:23.826 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:44:23.829 [D] init kafka succ
+2018/01/28 12:44:23.829 [D] initialize all succ
+2018/01/28 12:45:59.400 [D] get config from etcd, PUT "/oldboy/backend/logagent/config/192.168.10.103" : "[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]"
+
+2018/01/28 12:45:59.400 [D] get config from etcd succ, [{ test} { nginx_log_err}]
+2018/01/28 12:46:08.730 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:46:08.732 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:8 version:4 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:46:08.732 [D] log config is [{ test} { nginx_log_err}]
+2018/01/28 12:46:08.732 [D] resp from etcd:[]
+2018/01/28 12:46:08.733 [D] resp from etcd:[]
+2018/01/28 12:46:08.733 [D] initialize etcd succ
+2018/01/28 12:46:08.733 [D] initialize tailf succ
+2018/01/28 12:46:08.736 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:46:08.736 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:46:08.737 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:46:08.742 [D] init kafka succ
+2018/01/28 12:46:08.742 [D] initialize all succ
+2018/01/28 12:47:33.836 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:47:33.838 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:8 version:4 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:47:33.838 [D] log config is [{/usr/local/etc/nginx/logs/mofangapp.error.log test} {/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log_err}]
+2018/01/28 12:47:33.839 [D] resp from etcd:[]
+2018/01/28 12:47:33.839 [D] resp from etcd:[]
+2018/01/28 12:47:33.839 [D] initialize etcd succ
+2018/01/28 12:47:33.839 [D] initialize tailf succ
+2018/01/28 12:47:33.844 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:47:33.846 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:47:33.846 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:47:33.849 [D] init kafka succ
+2018/01/28 12:47:33.849 [D] initialize all succ
+2018/01/28 12:47:34.505 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:34.506 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:35.828 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:35.828 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:37.146 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:37.147 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:38.466 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:38.466 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:39.786 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:39.786 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:41.107 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:41.107 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:42.430 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:42.430 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:43.751 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:19 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:43.751 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:45.089 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:45.089 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:46.418 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:46.418 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:47.739 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:47.739 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:49.073 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:49.073 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:50.402 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:50.402 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:51.738 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:47:51.738 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:53.065 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:53.065 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:54.389 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:54.389 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:55.708 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:55.708 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:57.027 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:57.027 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:58.347 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:58.347 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:47:59.671 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:47:59.671 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:00.991 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:00.991 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:02.309 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:19 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:02.309 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:03.626 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:03.626 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:04.943 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:04.943 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:06.264 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:06.264 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:07.584 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:07.584 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:08.906 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:08.906 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:10.237 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:10.237 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:11.556 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:11.556 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:12.886 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:12.886 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:14.215 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:14.215 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:15.545 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:15.545 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:16.878 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:16.878 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:18.195 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:36 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getField" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getField HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:18.195 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:19.524 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:55 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:19.524 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:20.844 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:06:01 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:20.844 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:22.174 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:08 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:22.174 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:23.497 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:09 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:23.497 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:24.830 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:09 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:24.830 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:26.156 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:10 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:26.156 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:27.482 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:10 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:27.482 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:28.810 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:15 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:48:28.810 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:30.145 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:30.145 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:31.469 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:31.469 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:32.791 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:32.791 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:34.108 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:34.108 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:35.434 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:22 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:35.434 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:36.756 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:36 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getField" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getField HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:36.756 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:38.077 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:55 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:38.077 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:39.401 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:06:01 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:39.401 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:40.724 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:08 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:40.724 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:42.048 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:09 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:42.048 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:43.369 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:09 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:43.369 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:44.700 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:10 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:44.700 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:46.018 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:10 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:46.018 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:47.343 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:15 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:47.343 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:48.687 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:51 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:48.687 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:50.010 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:24 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:50.010 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:51.330 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:25 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:51.330 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:52.652 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:25 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:52.652 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:53.970 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:37 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:53.970 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:55.289 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:55.289 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:56.608 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:56.608 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:57.937 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:57.937 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:48:59.264 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:48:59.265 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:00.587 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:49:00.587 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:01.912 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:49:01.912 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:03.233 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:21 [error] 6648#0: *22 "/Users/clvaluedq/www/mofang/mofang-app/index.php/index.php" is not found (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/ HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:49:03.233 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:04.566 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:22 [error] 6648#0: *22 "/Users/clvaluedq/www/mofang/mofang-app/index.php/index.php" is not found (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/ HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:49:04.566 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:05.886 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:14:23 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/app/common/getFiexd" failed (2: No such file or directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:49:05.886 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:07.219 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:09:51 [error] 6648#0: *21 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:07.219 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:08.541 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:24 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:08.541 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:09.864 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:25 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:09.864 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:11.186 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:25 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:11.186 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:12.508 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:12:37 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:12.508 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:13.842 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:13.842 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:15.159 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:15.159 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:16.489 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:17 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:16.489 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:17.815 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:17.815 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:19.133 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:19.133 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:20.457 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:18 [error] 6648#0: *22 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/common/getFiexd" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/common/getFiexd HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:20.457 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:21.785 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:21 [error] 6648#0: *22 "/Users/clvaluedq/www/mofang/mofang-app/index.php/index.php" is not found (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/ HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:21.785 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:49:23.112 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:13:22 [error] 6648#0: *22 "/Users/clvaluedq/www/mofang/mofang-app/index.php/index.php" is not found (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/ HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:49:23.112 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:08.236 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:53:08.239 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:8 version:4 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:53:08.239 [D] log config is [{/usr/local/etc/nginx/logs/mofangapp.error.log test} {/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log_err}]
+2018/01/28 12:53:08.239 [D] resp from etcd:[]
+2018/01/28 12:53:08.240 [D] resp from etcd:[]
+2018/01/28 12:53:08.240 [D] initialize etcd succ
+2018/01/28 12:53:08.240 [D] initialize tailf succ
+2018/01/28 12:53:08.245 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:53:08.245 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:53:08.245 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:53:08.259 [D] init kafka succ
+2018/01/28 12:53:08.259 [D] initialize all succ
+2018/01/28 12:53:08.585 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:08.585 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:09.903 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:09.903 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:11.228 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:11.228 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:12.553 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:12.553 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:13.896 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:13.896 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:15.218 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:15.218 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:16.540 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:16.540 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:17.864 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:17.865 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:19.190 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:19.190 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:20.510 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:20.510 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:21.837 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:21.837 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:23.160 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:19 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:23.160 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:24.498 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:24.498 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:25.833 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:53:25.833 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:27.157 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:27.157 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:28.477 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:28.477 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:29.798 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:29.798 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:31.121 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:31.121 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:32.448 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:32.448 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:53:33.772 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:53:33.772 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:18.132 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/01/28 12:59:18.144 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:8 version:4 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/01/28 12:59:18.144 [D] log config is [{/usr/local/etc/nginx/logs/mofangapp.error.log test} {/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log_err}]
+2018/01/28 12:59:18.146 [D] resp from etcd:[]
+2018/01/28 12:59:18.148 [D] resp from etcd:[]
+2018/01/28 12:59:18.148 [D] initialize etcd succ
+2018/01/28 12:59:18.148 [D] initialize tailf succ 192.168.88.137:9092
+2018/01/28 12:59:18.159 [D] begin watch key:/oldboy/backend/logagent/config/172.16.142.1
+2018/01/28 12:59:18.159 [D] begin watch key:/oldboy/backend/logagent/config/192.168.10.103
+2018/01/28 12:59:18.160 [D] begin watch key:/oldboy/backend/logagent/config/192.168.88.1
+2018/01/28 12:59:18.168 [D] init kafka succ
+2018/01/28 12:59:18.168 [D] initialize all succ
+2018/01/28 12:59:18.490 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:18.490 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:19.809 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:19.809 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:21.133 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:21.133 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:22.456 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:22.456 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:23.788 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:23.788 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:25.112 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:25.112 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:26.431 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:27 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:26.431 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:27.762 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:19 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:27.762 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:29.093 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:29.093 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:30.421 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:30.421 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:31.757 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:31.757 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:33.100 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:20 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:33.100 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:34.426 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:34.426 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:35.746 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:05:21 [error] 6554#0: *17 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:test
+2018/01/28 12:59:35.746 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:37.081 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:25 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:59:37.081 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/01/28 12:59:38.402 [E] send message failed, err:dial tcp [::1]:9092: getsockopt: connection refused data:2017/12/08 16:00:26 [error] 6554#0: *15 open() "/Users/clvaluedq/www/mofang/mofang-app/index.php/app/bingdatav2/search" failed (20: Not a directory), client: 127.0.0.1, server: appmac.mofang.com, request: "GET /index.php/app/bingdatav2/search HTTP/1.1", host: "appmac.mofang.com:8080" topic:nginx_log_err
+2018/01/28 12:59:38.402 [E] send to kafka failed, err:dial tcp [::1]:9092: getsockopt: connection refused
+2018/02/03 14:43:37.771 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/02/03 14:43:42.775 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 14:43:42.775 [E] init etcd failed, err:grpc: timed out when dialing
+2018/02/03 14:45:39.399 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2379 /oldboy/backend/logagent/config/}
+2018/02/03 14:45:44.403 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 14:45:44.403 [E] init etcd failed, err:grpc: timed out when dialing
+2018/02/03 15:16:42.668 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2371 /oldboy/backend/logagent/config/}
+2018/02/03 15:16:47.670 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 15:16:47.670 [E] init etcd failed, err:grpc: timed out when dialing
+2018/02/03 15:17:51.473 [D] load conf succ, config:&{debug ./logs/logagent.log 100 192.168.88.137:9092 [{/usr/local/etc/nginx/logs/mofangapp.error.log test}] 192.168.88.137:2371 /oldboy/backend/logagent/config/}
+2018/02/03 15:17:51.478 [D] resp from etcd:[key:"/oldboy/backend/logagent/config/192.168.10.103" create_revision:2 mod_revision:2 version:1 value:"[{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"test\"},{\"log_path\":\"/usr/local/etc/nginx/logs/mofangapp.error.log\",\"topic\":\"nginx_log_err\"}]" ]
+2018/02/03 15:17:51.478 [D] log config is [{/usr/local/etc/nginx/logs/mofangapp.error.log test} {/usr/local/etc/nginx/logs/mofangapp.error.log nginx_log_err}]
+2018/02/03 15:17:51.480 [D] resp from etcd:[]
+2018/02/03 15:17:51.481 [D] resp from etcd:[]
+2018/02/03 15:17:51.482 [D] resp from etcd:[]
+2018/02/03 15:17:51.482 [D] initialize etcd succ
+2018/02/03 15:17:51.482 [D] initialize tailf succ 192.168.88.137:9092
+2018/02/03 15:17:51.490 [D] init kafka succ
+2018/02/03 15:17:51.490 [D] initialize all succ
+2018/02/03 15:17:56.482 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 15:17:56.482 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 15:17:56.482 [E] connect etcd failed, err: grpc: timed out when dialing
+2018/02/03 15:17:56.483 [E] connect etcd failed, err: grpc: timed out when dialing
